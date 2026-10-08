@@ -20,9 +20,16 @@ Crystal Kizor operates across seven brands and initiatives. The core design chal
 
 2. **Hierarchy over equality.** Studio COKA gets featured placement larger card, project image, dark treatment because it's the professional anchor and revenue path. TEA gets a full section because it's her thought-leadership engine. The remaining initiatives sit in a clean grid so the ecosystem is visible without overwhelming.
 
-3. **Proof, not claims.** The credibility strip uses real numbers from her work: 100,000+ sqm, TEDx, 70% natural ventilation. The featured work section shows the actual design principles behind her projects.
+3. **Proof, not claims.**
+   The credibility strip uses real numbers from her work: 100,000+ sqm, TEDx, 70% natural ventilation. The featured work section shows the actual design principles behind her projects.
 
-4. **Warm, grounded aesthetic.** Sand, terracotta and forest green reference African earth and materials not generic tech-startup blue. Fraunces serif + Inter sans give it an editorial, architectural feel.
+4. **Warm, grounded aesthetic.**
+
+   Sand, terracotta and forest green reference African earth and materials not generic tech-startup blue. Fraunces serif + Inter sans give it an editorial, architectural feel.
+
+5. **Gallery for texture and proof.**
+
+   A four-image gallery showcases the range of the work exteriors, interiors, workspace and community architecture — without adding unnecessary text. Hover captions remain subtle and appear only when the visitor engages.
 
 ---
 
@@ -30,7 +37,7 @@ Crystal Kizor operates across seven brands and initiatives. The core design chal
 
 **Brand:** The Effective Architect (TEA)
 
-**Tool:** _Passive Design Check_ an AI design-review assistant for architects working in hot climates.
+**Tool:** *Passive Design Check* — an AI design-review assistant for architects working in hot climates.
 
 **What it does:** A designer uploads a floor plan, section drawing, or written project brief. The tool analyses it against passive cooling principles orientation, cross-ventilation, shading, thermal mass, opening placement and returns specific, actionable feedback: what's working, what's missing, and what to test next.
 
@@ -54,12 +61,17 @@ I'd measure performance across three layers: acquisition (how people arrive), en
 
 **What I'd track:**
 
-- Traffic sources (organic, direct, LinkedIn, referral)
-- Scroll depth and time on page are they actually reading?
-- Click-through rate on the two primary CTAs ("Start a project" vs "Join the waitlist")
-- Bounce rate per section where do people drop off?
-- Device split desktop vs mobile behaviour
-- Form submissions and where they come from
+* Traffic sources (organic, direct, LinkedIn, referral)
+
+* Scroll depth and time on page are they actually reading?
+
+* Click-through rate on the two primary CTAs ("Start a project" vs "Join the waitlist")
+
+* Bounce rate per section where do people drop off?
+
+* Device split desktop vs mobile behaviour
+
+* Form submissions and where they come from
 
 **Tools:** Google Analytics 4 for traffic and events. Microsoft Clarity for session recordings and heatmaps (free, and it shows how people actually use the page). Netlify Analytics if I want server-side data without cookie banners. Google Search Console for search performance.
 
@@ -70,9 +82,13 @@ I'd measure performance across three layers: acquisition (how people arrive), en
 0.1% conversion is critically low industry baseline is 2–5%. I'd investigate in order:
 
 1. **Traffic quality** — where are the 5,000 coming from? If mostly bounce traffic, the problem isn't the page.
+
 2. **Funnel drop-off** — Clarity recordings to see where users leave. Are they reaching the CTA? Are they clicking and abandoning a form?
+
 3. **Message-match** — does the page deliver what the traffic source promised?
+
 4. **Form friction** — is the enquiry form too long, broken, or unclear?
+
 5. **Mobile experience** — majority of traffic is likely mobile; test it first.
 
 **What I'd do next:** Fix the biggest drop-off point first. Simplify the form. Add a secondary, lower-friction CTA. Then re-measure not guess.
@@ -81,11 +97,22 @@ I'd measure performance across three layers: acquisition (how people arrive), en
 
 ## Project Structure
 
+```text
 crystal-kizor-design/
 ├── index.html
 ├── style.css
 ├── main.js
-└── README.md
+├── README.md
+└── images/
+    ├── logo-primary.png
+    ├── hero-crystal.png
+    ├── coka-nature-home-1.png
+    ├── coka-nature-home-2.jpeg
+    ├── coka-community-1.JPG
+    ├── coka-community-2.PNG
+    ├── coka-office-1.png
+    └── coka-office-2.jpeg
+```
 
 ## Running Locally
 

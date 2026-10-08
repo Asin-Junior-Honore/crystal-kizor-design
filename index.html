@@ -8,21 +8,26 @@
     <meta name="description"
         content="Crystal Kizor is an architect, designer and entrepreneur building climate-responsive homes, cities and ideas across Africa. Founder of Studio COKA, The Effective Architect and more." />
 
+    <link rel="icon" type="image/png" href="images/logo-primary.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="style.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <nav class="nav" id="nav">
         <div class="nav-inner">
-            <a href="#top" class="nav-logo">Crystal Kizor<span>.</span></a>
+            <a href="#top" class="nav-logo-img">
+                <img src="images/logo-primary.png" alt="Crystal Kizor" />
+            </a>
             <ul class="nav-links">
                 <li><a href="#ecosystem">Ecosystem</a></li>
                 <li><a href="#work">Work</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#learn">Learn</a></li>
                 <li><a href="#speaking">Speaking</a></li>
             </ul>
@@ -48,9 +53,7 @@
                     </div>
                 </div>
                 <div class="hero-portrait reveal">
-                    <!-- REPLACE: your headshot file or URL -->
-                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFUyZuSwlurzg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728669884609?e=1793232000&v=beta&t=YpYtGaR0g9R64hm1fGm8nh_NMETJji4HnJPf7OXHEpo"
-                        alt="Portrait of Crystal Kizor" loading="eager" />
+                    <img src="images/hero-crystal.png" alt="Portrait of Crystal Kizor" loading="eager" />
                 </div>
             </div>
         </div>
@@ -90,9 +93,8 @@
             <div class="eco-grid">
                 <!-- Studio COKA — FEATURED -->
                 <article class="eco-card eco-featured reveal">
-                    <!-- REPLACE: Studio COKA project image -->
-                    <img src="https://media.licdn.com/dms/image/v2/D4E22AQEtHlc8XZx6_Q/feedshare-shrink_800/B4EZ5oUGgSJ0Ac-/0/1779866561044?e=1793232000&v=beta&t=bgArqr-LZYeAxkxoKyhpAy7CS9yP9nagcPhUfIpeIw8"
-                        alt="Studio COKA climate-responsive home" class="eco-featured-img" loading="lazy" />
+                    <img src="images/coka-nature-home-1.png" alt="Studio COKA climate-responsive home"
+                        class="eco-featured-img" loading="lazy" />
                     <div class="eco-tag">Architecture · Interiors · Construction</div>
                     <h3>Studio COKA</h3>
                     <p>
@@ -171,8 +173,7 @@
             <!-- Project 1 -->
             <div class="work-feature reveal">
                 <div class="work-img">
-                    <!-- REPLACE: 7-bedroom Enugu home image -->
-                    <img src="https://media.licdn.com/dms/image/v2/D4D22AQHTOJ9H2MtV-g/feedshare-shrink_480/B4DaAzm1b1GkAg-/0/1787572213824?e=1793232000&v=beta&t=FtqcKT-kfxKQF-F37L8nf4zYrZmdWFa_oCnB9y7zuW4"
+                    <img src="images/coka-nature-home-2.jpeg"
                         alt="7-bedroom climate-responsive home in Enugu, Nigeria" loading="lazy" />
                 </div>
                 <div class="work-content">
@@ -199,8 +200,7 @@
             <!-- Project 2 -->
             <div class="work-feature reverse reveal">
                 <div class="work-img">
-                    <!-- REPLACE: Kasa Kofo Community Centre image -->
-                    <img src="https://media.licdn.com/dms/image/v2/D4D22AQGc0Z_TBLArDw/feedshare-shrink_800/B4DaA58f8vIQAc-/0/1787678556337?e=1793232000&v=beta&t=W73z2WJ7GZ-ow8ELtt3InL2kudb9u5rkqsOATiloZFs"
+                    <img src="images/coka-community-1.JPG"
                         alt="Kasa Kofo Community Centre, Casamance, Senegal" loading="lazy" />
                 </div>
                 <div class="work-content">
@@ -227,6 +227,40 @@
         </div>
     </section>
 
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="section-eyebrow">More From The Studio</div>
+                <h2>Design, detail, and the spaces in between.</h2>
+                <p>
+                    A closer look at the material choices, interiors and textures that
+                    shape how these buildings feel to live in.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item reveal">
+                    <img src="images/coka-office-1.png" alt="Studio COKA studio exterior, Enugu" loading="lazy" />
+                    <figcaption>Studio · Enugu</figcaption>
+                </figure>
+
+                <figure class="gallery-item reveal">
+                    <img src="images/coka-office-2.jpeg" alt="Studio COKA reception and workspace" loading="lazy" />
+                    <figcaption>Workspace · Enugu</figcaption>
+                </figure>
+
+                <figure class="gallery-item reveal">
+                    <img src="images/coka-community-2.PNG" alt="Gallery interior at Kasa Kofo Community Centre" loading="lazy" />
+                    <figcaption>Gallery · Kasa Kofo</figcaption>
+                </figure>
+
+                <figure class="gallery-item reveal">
+                    <img src="images/coka-nature-home-1.png" alt="Climate-responsive home exterior" loading="lazy" />
+                    <figcaption>Exterior · Nature Home</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
 
     <section class="learn" id="learn">
         <div class="container">
